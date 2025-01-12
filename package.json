@@ -1,0 +1,19 @@
+{
+  "name": "news-gallery",
+  "version": "75.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "v1ky",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3"
+  }
+}
